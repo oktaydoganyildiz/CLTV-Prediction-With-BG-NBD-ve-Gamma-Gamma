@@ -1,4 +1,4 @@
-# CLTV-Prediction-With-BG-NBD-ve-Gamma-Gamma
+# CLTV-Prediction-With-BG-NBD-and-Gamma-Gamma
 
 
 FLO is a large online retail store of Turkey. FLO store, which includes shoes, bags and sports products in Women's, Men's and Children's categories, has a large transaction volume.
@@ -9,6 +9,9 @@ FLO, an online shoe store, wants to segment its customers and determine marketin
 
 # Business Problem 👩‍💻
 FLO wants to set a roadmap for sales and marketing activities. In order for the company to make a medium-long-term plan, it is necessary to estimate the potential value that existing customers will provide to the company in the future.
+
+
+# BG-NBD and Gamma Gamma
 
 BG/NBD Model (Beta Geometric / Negative Binomial Distribution) 
 
@@ -31,5 +34,8 @@ It is used to estimate how much profit a customer can bring per transaction on a
 ![image](https://github.com/oktaydoganyildiz/CLTV-Prediction-With-BG-NBD-ve-Gamma-Gamma/assets/70387935/024e136f-3f27-4e65-be27-59da9002cc8f)
 
 p, q, γ: Transaction values models and come from the gamma distribution, m_x: Monetary refers to the average earnings per purchase, x: Frequency is the number of recurring sales for users who have traded at least twice.
+
+![image](https://github.com/oktaydoganyildiz/CLTV-Prediction-With-BG-NBD-ve-Gamma-Gamma/assets/70387935/2bf7d4c7-e59b-4a96-91c8-4e075ccc9b5e)
+
 
 **As a result, by multiplying the BG/ NPV and Gamma-Gamma models, creating a time-projected prediction model, CLTV prediction can be achieved across all customers.**
